@@ -5,9 +5,9 @@ local Player = game:GetService("Players").LocalPlayer
 local ArgsTransform = {
 	Character = game.Players.LocalPlayer.Character,
 	CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame,
-	Color1 = Color3.fromRGB(128, 0, 128),
-	Color2 = Color3.fromRGB(128, 0, 128),
-	Color3 = Color3.fromRGB(128, 0, 128),
+	Color1 = Color3.fromRGB(255, 0, 0),
+	Color2 = Color3.fromRGB(255, 0, 0),
+	Color3 = Color3.fromRGB(255, 0, 0),
 }
 
 Player.Character.Humanoid:LoadAnimation(ReplicatedStorage.Util.Anims.Storage["2"].RaceTransform):Play()
